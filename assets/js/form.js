@@ -6,7 +6,7 @@ $("#submit-form").submit((e) => {
     // Update the class to display the sent-message
     loadMessage.removeClass("d-none").addClass("d-block");
     $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbyK2zfAWz7bLdhyvxdc3XkOLxD6LrtdiyShauW9tWRI78_mcPdHuIU0MnzMG0Hr0eMx/exec",
+        url: "https://script.google.com/macros/s/AKfycbz2C3P8mJall20_a-QrWh4V8A1bWpqv9r8fSyeOjt2AEIzVWzX0K4W85eUIBwf_Gufj/exec",
         data: $("#submit-form").serialize(),
         method: "post",
         success: function (response) {

@@ -307,7 +307,7 @@ h6 {
 }
 
 .navbar-mobile {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   top: 0;
   right: 0;

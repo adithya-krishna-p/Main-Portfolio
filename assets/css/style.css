@@ -298,7 +298,7 @@ h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    display:block;
   }
 
   .navbar ul {
@@ -308,7 +308,7 @@ h6 {
 
 .navbar-mobile {
   position: absolute;
-  overflow: hidden;
+  overflow:hidden;
   top: 0;
   right: 0;
   left: 0;
@@ -321,6 +321,7 @@ h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
+  overflow: hidden;
   top: 15px;
   right: 15px;
 }
